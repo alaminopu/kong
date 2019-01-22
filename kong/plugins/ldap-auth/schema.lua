@@ -8,6 +8,7 @@ return {
   fields = {
     { consumer = typedefs.no_consumer },
     { run_on = typedefs.run_on_first },
+    { subsystem = typedefs.subsystem_http },
     { config = {
         type = "record",
         fields = {
